@@ -6,7 +6,9 @@ name = "pypi"
 [packages]
 importlib-resources = "5.10.0"
 ipdb = "0.13.9"
-pytest="7.1.3"
+pytest = "*"
 
 [requires]
 python_full_version = "3.8.13"
+
+[dev-packages]
